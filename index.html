@@ -1,0 +1,1021 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Portfolio</title>
+
+     <!--
+    - favicon
+  -->
+     <link rel="shortcut icon" href="./assets/images/Darshan.jpg" type="image/x-icon">
+
+     <!--
+    - custom css link
+  -->
+     <link rel="stylesheet" href="./assets/css/style.css">
+
+     <!--
+    - google font link
+  -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+     <!--
+    - #MAIN
+  -->
+
+     <main>
+
+          <!--
+      - #SIDEBAR
+    -->
+
+          <aside class="sidebar" data-sidebar>
+
+               <div class="sidebar-info">
+
+                    <figure class="avatar-box">
+                         <img src="./assets/images/Darshan.jpg" alt="Richard hanrick" width="80">
+                    </figure>
+
+                    <div class="info-content">
+                         <h1 class="name" title="Darshan">Darshan B</h1>
+
+                         <p class="title">DevOps Engineer</p>
+                    </div>
+
+                    <button class="info_more-btn" data-sidebar-btn>
+                         <span>Show Contacts</span>
+
+                         <ion-icon name="chevron-down"></ion-icon>
+                    </button>
+
+               </div>
+
+               <div class="sidebar-info_more">
+                    <div class="separator"></div>
+                    <ul class="contacts-list">
+
+                         <li class="contact-item">
+                              <div class="icon-box">
+                                   <ion-icon name="mail-outline"></ion-icon>
+                              </div>
+
+
+                              <div class="contact-info">
+                                   <p class="contact-title">Email</p>
+
+                                   <a href="mailto:thedarshanb@gmail.com" class="contact-link">thedarshanb@gmail.com</a>
+                              </div>
+
+                         <li class="contact-item">
+                              <div class="icon-box">
+                                   <ion-icon name="logo-linkedin"></ion-icon>
+                              </div>
+
+                              <div class="contact-info">
+                                   <p class="contact-title">Linkedin</p>
+
+                                   <a class="contact-link" href="https://www.linkedin.com/in/thedarshanb/">Darshan B</a>
+                              </div>
+                         </li>
+
+                         <li class="contact-item">
+                              <div class="icon-box">
+                                   <ion-icon name="location-outline"></ion-icon>
+                              </div>
+
+                              <div class="contact-info">
+                                   <p class="contact-title">Location</p>
+
+                                   <address>Bengaluru, Karnataka, India </address>
+                              </div>
+
+                         </li>
+
+                    </ul>
+
+                    <div class="separator"></div>
+
+                    <ul class="social-list">
+                         <li class="social-item">
+                              <a href="https://www.linkedin.com/in/thedarshanb/" class="social-link">
+                                   <ion-icon name="logo-linkedin"></ion-icon>
+                              </a>
+                         </li>
+                         <li class="social-item">
+                              <a href="https://github.com/thedarshanb" class="social-link">
+                                   <ion-icon name="logo-github"></ion-icon>
+                              </a>
+                         </li>
+                    </ul>
+
+
+          </aside>
+
+
+
+          <!--
+      - #main-content
+    -->
+
+          <div class="main-content">
+
+               <!--
+        - #NAVBAR
+      -->
+
+               <nav class="navbar">
+
+                    <ul class="navbar-list">
+
+                         <li class="navbar-item">
+                              <button class="navbar-link  active" data-nav-link>About</button>
+                         </li>
+
+                         <li class="navbar-item">
+                              <button class="navbar-link" data-nav-link>Resume</button>
+                         </li>
+
+                         <li class="navbar-item">
+                              <button class="navbar-link" data-nav-link>Portfolio</button>
+                         </li>
+
+                         <!-- <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li> -->
+
+                         <li class="navbar-item">
+                              <button class="navbar-link" data-nav-link>Contact</button>
+                         </li>
+
+                    </ul>
+
+               </nav>
+
+
+               <!--
+        - #ABOUT
+      -->
+               <article class="about active" data-page="about">
+                    <header>
+                         <!-- <h2 class="h2 article-title">About me</h2> -->
+                         <br />
+                         <section>
+                              <div class="content article-title">
+                                   <h5>About Me</h5>
+                                   <h5>About Me</h5>
+                                   <br />
+                              </div>
+                         </section>
+                    </header>
+                    <!-- <br> -->
+
+                    <section class="nerdy-pen">
+                         <h1 class="nerdy-pen__text">
+                              <span class="txt-rotate" data-period="2000"
+                                   data-rotate='[ "Eat()", "Sleep()", "Learn()", "Repeat()", "Eat() Sleep() Learn() Repeat()" ]'></span>
+                         </h1>
+                    </section>
+                    <br>
+
+
+                    <!-- <section class="about-text">
+          <p>
+            I am a Computer Science and Engineering graduate from Visvesvaraya Technological University (VTU), Class
+            of
+            2024. With a strong interest in cloud computing, automation, and infrastructure management, I am currently
+            focused on building a career in the DevOps field and actively learning tools and platforms such as AWS
+            (Amazon Web Services), Docker, Kubernetes, Git, Jenkins, and Linux.
+          </p>
+
+          <p>
+            During my academic journey, I developed a solid foundation in programming, databases, operating systems,
+            and
+            computer networks. I also worked on academic projects that improved my problem-solving abilities and gave
+            me
+            hands-on experience with software development.
+          </p>
+
+          <p>
+            Now, I am working toward becoming a skilled DevOps Engineer by learning how to automate deployments,
+            manage
+            cloud infrastructure, and support CI/CD pipelines. I am passionate about staying up to date with the
+            latest
+            technologies and enjoy learning by doing.
+          </p>
+        </section> -->
+
+
+
+
+
+                    <!--
+          - service
+        -->
+                    <section class="service">
+                         <!-- <h3 class="h3 service-title">What i'm doing</h3> -->
+
+                         <ul class="service-list">
+                              <li class="service-item">
+                                   <div class="service-icon-box">
+                                        <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40" />
+                                   </div>
+                                   <div class="service-content-box">
+                                        <h4 class="h4 service-item-title">
+                                             DevOps Engineer
+
+                                        </h4>
+                                        <p class="service-item-text">
+
+                                             Experienced in DevOps Engineering, implementing CI/CD pipelines and
+                                             automating workflows to enhance
+                                             efficiency.
+
+                                        </p>
+                                   </div>
+                              </li>
+
+                              <li class="service-item">
+                                   <div class="service-icon-box">
+                                        <img src="./assets/images/icon-design.svg" alt="Cloud Computing Icon"
+                                             width="40" />
+                                   </div>
+                                   <div class="service-content-box">
+                                        <h4 class="h4 service-item-title">Web development</h4>
+
+                                        <p class="service-item-text">
+                                             Experienced in Front-End Web Development, delivering high-quality,
+                                             user-centric projects
+                                        </p>
+
+                                   </div>
+                              </li>
+                         </ul>
+                    </section>
+               </article>
+
+
+
+               <!--
+        - #RESUME
+      -->
+               <article class="resume" data-page="resume">
+                    <header>
+                         <!-- <h2 class="h2 article-title">Resume</h2> -->
+                         <br />
+                         <section>
+                              <div class="content article-title">
+                                   <h5>Resume</h5>
+                                   <h5>Resume</h5>
+                                   <br />
+
+                              </div>
+                         </section>
+
+                    </header>
+
+
+                    <section class="timeline">
+                         <div class="title-wrapper">
+                              <div class="icon-box">
+                                   <ion-icon name="book-outline"></ion-icon>
+                              </div>
+
+                              <h3 class="h3">Education</h3>
+                         </div>
+
+                         <ol class="timeline-list">
+                              <li class="timeline-item">
+                                   <h4 class="h4 timeline-item-title">
+                                        CIT COLLEGE OF ENGINEERING
+                                   </h4>
+                                   <span>December 2020 — June 2024</span>
+
+                                   <p class="timeline-text">
+                                        BE In Computer Science Engineering<br />
+                                        Skills: C · HTML/CSS · Java · JavaScript · Python · DBMS ·
+                                        Computer Network
+                                   </p>
+                              </li>
+
+                              <li class="timeline-item">
+                                   <h4 class="h4 timeline-item-title">Anikethana PU College</h4>
+
+                                   <span>July 2018 — March 2020</span>
+
+                                   <p class="timeline-text">
+                                        Class: 12th PCMCs ( Physics , Chemistry , Mathematics &
+                                        Computer Science)
+                                   </p>
+                              </li>
+                              <li class="timeline-item">
+                                   <h4 class="h4 timeline-item-title">ABVK High School</h4>
+                                   <span>June 2015 — April 2018 </span>
+                                   <p class="timeline-text">Class: 10th</p>
+                              </li>
+                         </ol>
+                    </section>
+
+                    <section class="timeline">
+                         <div class="title-wrapper">
+                              <div class="icon-box">
+                                   <ion-icon name="book-outline"></ion-icon>
+                              </div>
+
+                              <h3 class="h3">Experience</h3>
+                         </div>
+
+                         <ol class="timeline-list">
+
+
+
+                              <li class="timeline-item">
+                                   <h4 class="h4 timeline-item-title">Freelancer (via Freelancer.com)</h4>
+                                   <span>Front-End Developer | Logo Designer </span>
+                                   <span>🗓️ June 2024 — May 2025</span>
+                                   <p class="timeline-text">
+                                        • Collaborated with clients to deliver high-quality front-end solutions with
+                                        projects.
+                                        <br>
+                                        • Developed responsive and interactive front-end applications using HTML5, CSS3,
+                                        JavaScript.<br>
+                                        • Designed modern, professional logos and brand identities aligned with client
+                                        requirements.<br>
+                                        • Executed high-accuracy data entry projects, ensuring efficiency and data
+                                        integrity.
+                                   </p>
+                              </li>
+
+                              <li class="timeline-item">
+                                   <h4 class="h4 timeline-item-title">
+                                        Technologics Global Pvt. Ltd.
+                                   </h4>
+                                   <span>Python AI/ML Intern</span>
+                                   <span> 🗓️ August 2023 — September 2023 </span>
+                                   <p class="timeline-text">
+                                        • Completed an internship focused on the industrial applications of Python,
+                                        Artificial Intelligence
+                                        (AI), and Machine Learning (ML).<br>
+                                        • Utilized Python for data handling, model training, and implementation of basic
+                                        machine learning
+                                        workflows.
+                                   </p>
+                              </li>
+
+
+
+                              </li>
+                         </ol>
+                    </section>
+                    <br />
+
+                    <div>
+                         <a href="https://drive.google.com/file/d/1Kt_ZsvBTf4BRQufz5tC7lLan5uGuxHLt/view?usp=sharing">
+                              <section>
+                                   <div class="content article-title">
+                                        <h5>My Resume</h5>
+                                        <h5>My Resume</h5>
+                                        <br />
+                                   </div>
+                              </section>
+                         </a>
+                    </div>
+
+
+
+                    <br />
+
+
+                    <section class="skill">
+                         <section>
+                              <div class="content article-title">
+                                   <h5>Skills</h5>
+                                   <h5>skills</h5>
+                                   <br />
+                              </div>
+                              <!-- <br> -->
+                              <ul class="skills-list content-card">
+                                   <ul class="skills-list">
+
+
+
+                                        <li class="skills-item">
+                                             <div class="title-wrapper">
+                                                  <h5 class="h5">SDLC</h5>
+                                                  <data value="80">85%</data>
+                                             </div>
+                                             <div class="skill-progress-bg">
+                                                  <div class="skill-progress-fill" style="width: 85%"></div>
+                                             </div>
+                                        </li>
+
+                                        <li class="skills-item">
+                                             <div class="title-wrapper">
+                                                  <h5 class="h5">Agile Methodology</h5>
+                                                  <data value="75">80%</data>
+                                             </div>
+                                             <div class="skill-progress-bg">
+                                                  <div class="skill-progress-fill" style="width: 80%"></div>
+                                             </div>
+                                        </li>
+
+                                        <li class="skills-item">
+                                             <div class="title-wrapper">
+                                                  <h5 class="h5">AWS</h5>
+                                                  <data value="90">85%</data>
+                                             </div>
+                                             <div class="skill-progress-bg">
+                                                  <div class="skill-progress-fill" style="width: 85%"></div>
+                                             </div>
+                                        </li>
+
+                                        <li class="skills-item">
+                                             <div class="title-wrapper">
+                                                  <h5 class="h5">Linux/Bash</h5>
+                                                  <data value="80">90%</data>
+                                             </div>
+                                             <div class="skill-progress-bg">
+                                                  <div class="skill-progress-fill" style="width: 90%"></div>
+                                             </div>
+                                        </li>
+
+                                        <li class="skills-item">
+                                             <div class="title-wrapper">
+                                                  <h5 class="h5">Networking</h5>
+                                                  <data value="65">80%</data>
+                                             </div>
+                                             <div class="skill-progress-bg">
+                                                  <div class="skill-progress-fill" style="width: 80%"></div>
+                                             </div>
+                                        </li>
+
+                                        <li class="skills-item">
+                                             <div class="title-wrapper">
+                                                  <h5 class="h5">Git/GitHub</h5>
+                                                  <data value="80">85%</data>
+                                             </div>
+                                             <div class="skill-progress-bg">
+                                                  <div class="skill-progress-fill" style="width: 85%"></div>
+                                             </div>
+                                        </li>
+
+                                        <li class="skills-item">
+                                             <div class="title-wrapper">
+                                                  <h5 class="h5">Ansible</h5>
+                                                  <data value="75">85%</data>
+                                             </div>
+                                             <div class="skill-progress-bg">
+                                                  <div class="skill-progress-fill" style="width: 85%"></div>
+                                             </div>
+                                        </li>
+
+
+                                        <li class="skills-item">
+                                             <div class="title-wrapper">
+                                                  <h5 class="h5">Terraform</h5>
+                                                  <data value="70">75%</data>
+                                             </div>
+
+                                             <div class="skill-progress-bg">
+                                                  <div class="skill-progress-fill" style="width: 75%"></div>
+                                             </div>
+                                        </li>
+
+                                        <li class="skills-item">
+                                             <div class="title-wrapper">
+                                                  <h5 class="h5">Jenkins</h5>
+                                                  <data value="90">85%</data>
+                                             </div>
+
+                                             <div class="skill-progress-bg">
+                                                  <div class="skill-progress-fill" style="width: 85%"></div>
+                                             </div>
+                                        </li>
+
+                                        <li class="skills-item">
+                                             <div class="title-wrapper">
+                                                  <h5 class="h5">Docker</h5>
+                                                  <data value="80">80%</data>
+                                             </div>
+
+                                             <div class="skill-progress-bg">
+                                                  <div class="skill-progress-fill" style="width: 80%"></div>
+                                             </div>
+                                        </li>
+
+                                        <li class="skills-item">
+                                             <div class="title-wrapper">
+                                                  <h5 class="h5">Kubernetes</h5>
+                                                  <data value="90">85%</data>
+                                             </div>
+
+                                             <div class="skill-progress-bg">
+                                                  <div class="skill-progress-fill" style="width: 85%"></div>
+                                             </div>
+                                        </li>
+
+
+                                        <li class="skills-item">
+                                             <div class="title-wrapper">
+                                                  <h5 class="h5">HTML/CSS</h5>
+                                                  <data value="80">90%</data>
+                                             </div>
+
+                                             <div class="skill-progress-bg">
+                                                  <div class="skill-progress-fill" style="width: 90%"></div>
+                                             </div>
+                                        </li>
+
+                                        <li class="skills-item">
+                                             <div class="title-wrapper">
+                                                  <h5 class="h5">JavaScript</h5>
+                                                  <data value="90">80%</data>
+                                             </div>
+
+                                             <div class="skill-progress-bg">
+                                                  <div class="skill-progress-fill" style="width: 80%"></div>
+                                             </div>
+                                        </li>
+
+                                        <li class="skills-item">
+                                             <div class="title-wrapper">
+                                                  <h5 class="h5">MySQL</h5>
+                                                  <data value="70">85%</data>
+                                             </div>
+                                             <div class="skill-progress-bg">
+                                                  <div class="skill-progress-fill" style="width: 85%"></div>
+                                             </div>
+                                        </li>
+
+                                        <li class="skills-item">
+                                             <div class="title-wrapper">
+                                                  <h5 class="h5">C</h5>
+                                                  <data value="80">80%</data>
+                                             </div>
+
+                                             <div class="skill-progress-bg">
+                                                  <div class="skill-progress-fill" style="width: 80%"></div>
+                                             </div>
+                                        </li>
+
+                                        <li class="skills-item">
+                                             <div class="title-wrapper">
+                                                  <h5 class="h5">Core Java</h5>
+                                                  <data value="90">85%</data>
+                                             </div>
+
+                                             <div class="skill-progress-bg">
+                                                  <div class="skill-progress-fill" style="width: 85%"></div>
+                                             </div>
+                                        </li>
+
+                                        <li class="skills-item">
+                                             <div class="title-wrapper">
+                                                  <h5 class="h5">Python</h5>
+                                                  <data value="85">85%</data>
+                                             </div>
+
+                                             <div class="skill-progress-bg">
+                                                  <div class="skill-progress-fill" style="width: 85%"></div>
+                                             </div>
+                                        </li>
+                                   </ul>
+
+                         </section>
+               </article>
+
+
+               <!--
+        - #PORTFOLIO
+      -->
+
+               <article class="portfolio" data-page="portfolio">
+                    <header>
+                         <!-- <h2 class="h2 article-title">Portfolio</h2> -->
+                         <br />
+                         <section>
+                              <div class="content article-title">
+                                   <h5>Portfolio</h5>
+                                   <h5>Portfolio</h5>
+                                   <br />
+                              </div>
+                         </section>
+                    </header>
+
+
+                    <!-- <section>
+          <div class="content article-title">
+            <h5>Certifications And Projects</h5>
+            <h5>Certifications And Projects</h5>
+            <br />
+          </div>
+        </section> -->
+
+
+                    <!-- Projects -->
+
+
+                    <section class="Projects">
+                         <ul class="project-list">
+
+
+
+                              <li class="project-item active" data-filter-item data-category="Projects">
+                                   <a href="https://github.com/thedarshanb/Interactive-Earpods-Front-End-Project"
+                                        target="_blank">
+                                        <figure class="project-img">
+                                             <div class="project-item-icon-box">
+                                                  <ion-icon name="eye-outline"></ion-icon>
+                                             </div>
+                                             <img src="./assets/images/Projects/Earpods.png" alt="Futuristic"
+                                                  loading="lazy">
+                                        </figure>
+                                        <h3 class="project-title">🎧 Interactive Earpods | Front-End Project <br>(Web
+                                             App)</h3>
+                                        <p class="project-category">Project</p>
+                                   </a>
+                              </li>
+
+
+                              <li class="project-item active" data-filter-item data-category="Projects">
+                                   <a href="https://github.com/thedarshanb/Futuristic-UI-Experience-Interactive-Project"
+                                        target="_blank">
+                                        <figure class="project-img">
+                                             <div class="project-item-icon-box">
+                                                  <ion-icon name="eye-outline"></ion-icon>
+                                             </div>
+                                             <img src="./assets/images/Projects/Fruitjuice-UI.png" alt="Futuristic"
+                                                  loading="lazy">
+                                        </figure>
+                                        <h3 class="project-title">Futuristic UI Experience | Interactive Project<br>(web
+                                             App)</h3>
+                                        <p class="project-category">Project</p>
+                                   </a>
+                              </li>
+
+
+
+                              <li class="project-item active" data-filter-item data-category="Projects">
+                                   <a href="https://thedarshanb.github.io/Tic-Tac-Toe-Game-Using-JavaScript/Tic%20Tac%20Toe/"
+                                        target="_blank">
+                                        <figure class="project-img">
+                                             <div class="project-item-icon-box">
+                                                  <ion-icon name="eye-outline"></ion-icon>
+                                             </div>
+                                             <img src="./assets/images/Projects/Tic Tac Toe.jpg" alt="Futuristic"
+                                                  loading="lazy">
+                                        </figure>
+                                        <h3 class="project-title">Tic Tac Toe <br>(Html, CSS, Js)</h3>
+                                        <p class="project-category">Project</p>
+                                   </a>
+                              </li>
+
+
+
+                              <li class="project-item active" data-filter-item data-category="Projects">
+                                   <a href="https://github.com/thedarshanb/AWS-VPC-with-servers-in-private-subnets-and-NAT"
+                                        target="_blank">
+                                        <figure class="project-img">
+                                             <div class="project-item-icon-box">
+                                                  <ion-icon name="eye-outline"></ion-icon>
+                                             </div>
+                                             <img src="./assets/images/Projects/Aws project.png" alt="Aws"
+                                                  loading="lazy">
+                                        </figure>
+                                        <h3 class="project-title">AWS-VPC-with-servers-in-private-subnets-and-NAT
+                                             Gateway</h3>
+                                        <p class="project-category">Project</p>
+                                   </a>
+                              </li>
+
+
+
+                              <li class="project-item active" data-filter-item data-category="Certifications">
+                                   <a href="https://www.credly.com/badges/668decf3-97e1-4bee-ac30-5fa282f4a56f/public_url"
+                                        target="_blank" rel="noopener noreferrer">
+                                        <figure class="project-img">
+                                             <div class="project-item-icon-box">
+                                                  <ion-icon name="eye-outline"></ion-icon>
+                                             </div>
+                                             <img src="./assets/images/Certificates/aws-educate-introduction-to-cloud-101.png"
+                                                  alt="Cloud 101" loading="lazy">
+                                        </figure>
+                                        <h3 class="project-title">AWS Educate Introduction to Cloud 101</h3>
+                                        <p class="project-category">Certification</p>
+                                   </a>
+                              </li>
+
+
+                              <li class="project-item active" data-filter-item data-category="Projects">
+                                   <a href="https://github.com/thedarshanb/AWS-Mini-Project" target="_blank">
+                                        <figure class="project-img">
+                                             <div class="project-item-icon-box">
+                                                  <ion-icon name="eye-outline"></ion-icon>
+                                             </div>
+                                             <img src="./assets/images/Projects/AWS Mini Project.png" alt="AWS"
+                                                  loading="lazy">
+                                        </figure>
+                                        <h3 class="project-title">AWS Security using Security Groups and NACL</h3>
+                                        <p class="project-category">Project</p>
+                                   </a>
+                              </li>
+
+
+
+
+
+
+                              <!-- <li class="project-item active" data-filter-item data-category="Projects">
+              <a href="https://github.com/thedarshanb/Python-Projects" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/Projects/Coffee Image.webp" alt="AWS" loading="lazy">
+                </figure>
+                <h3 class="project-title">Coffee Shop Mini Project Using Python</h3>
+                <p class="project-category">Project</p>
+              </a>
+            </li> -->
+
+
+
+
+
+
+
+
+                              <!-- Certifications -->
+
+
+                              <li class="project-item active" data-filter-item data-category="Certifications">
+                                   <a href="https://drive.google.com/file/d/1AHk6HF0zIFQbeHHJA2WceFgmOMVzU4rt/view?usp=drive_link"
+                                        target="_blank" rel="noopener noreferrer">
+                                        <figure class="project-img">
+                                             <div class="project-item-icon-box">
+                                                  <ion-icon name="eye-outline"></ion-icon>
+                                             </div>
+                                             <img src="./assets/images/Certificates/Python.jpg"
+                                                  alt="Python For Beginners" loading="lazy">
+                                        </figure>
+                                        <h3 class="project-title">Python for Beginners</h3>
+                                        <p class="project-category">Certification</p>
+                                   </a>
+                              </li>
+
+                              <li class="project-item active" data-filter-item data-category="Certifications">
+                                   <a href="https://drive.google.com/file/d/1ZHwWCJilEyVaPHt2jJ6VU4CdrGgsCQ5r/view?usp=drive_link"
+                                        target="_blank" rel="noopener noreferrer">
+                                        <figure class="project-img">
+                                             <div class="project-item-icon-box">
+                                                  <ion-icon name="eye-outline"></ion-icon>
+                                             </div>
+                                             <img src="./assets/images/Certificates/AWS.jpg"
+                                                  alt="AWS Service Fundamentals" loading="lazy">
+                                        </figure>
+                                        <h3 class="project-title">AWS Service Fundamentals</h3>
+                                        <p class="project-category">Certification</p>
+                                   </a>
+                              </li>
+
+                              <li class="project-item active" data-filter-item data-category="Certifications">
+                                   <a href="https://drive.google.com/file/d/1y5bkrD-Pin_e3_KfLoI1vG33Rxe1tU01/view?usp=drive_link"
+                                        target="_blank" rel="noopener noreferrer">
+                                        <figure class="project-img">
+                                             <div class="project-item-icon-box">
+                                                  <ion-icon name="eye-outline"></ion-icon>
+                                             </div>
+                                             <img src="./assets/images/Certificates/Networking.jpg"
+                                                  alt="AWS Networking Basics" loading="lazy">
+                                        </figure>
+                                        <h3 class="project-title">AWS Networking Basics</h3>
+                                        <p class="project-category">Certification</p>
+                                   </a>
+                              </li>
+
+                              <li class="project-item active" data-filter-item data-category="Certifications">
+                                   <a href="https://drive.google.com/file/d/1BHltsplhN0qfy2E-weiFYqgen6ClwoUB/view?usp=drive_link"
+                                        target="_blank" rel="noopener noreferrer">
+                                        <figure class="project-img">
+                                             <div class="project-item-icon-box">
+                                                  <ion-icon name="eye-outline"></ion-icon>
+                                             </div>
+                                             <img src="./assets/images/Certificates/Git.jpg" alt="Git" loading="lazy">
+                                        </figure>
+                                        <h3 class="project-title">Git</h3>
+                                        <p class="project-category">Certification</p>
+                                   </a>
+                              </li>
+
+
+
+                              <li class="project-item active" data-filter-item data-category="Certifications">
+                                   <a href="https://drive.google.com/file/d/1Pm_rF6Wtqym4aGduFeb4iNM6__3tNNXl/view?usp=drive_link"
+                                        target="_blank" rel="noopener noreferrer">
+                                        <figure class="project-img">
+                                             <div class="project-item-icon-box">
+                                                  <ion-icon name="eye-outline"></ion-icon>
+                                             </div>
+                                             <img src="./assets/images/Certificates/aws forage.jpg"
+                                                  alt="AWS Job Simulation" loading="lazy">
+                                        </figure>
+                                        <h3 class="project-title">AWS APAC Solutions Architecture Job Simulation</h3>
+                                        <p class="project-category">Certification</p>
+                                   </a>
+                              </li>
+
+
+
+                              <li class="project-item active" data-filter-item data-category="Certifications">
+                                   <a href="https://drive.google.com/file/d/1Pgo9N0tRTM3qCvUU197MGal8aE_Xxztu/view?usp=drive_link"
+                                        target="_blank" rel="noopener noreferrer">
+                                        <figure class="project-img">
+                                             <div class="project-item-icon-box">
+                                                  <ion-icon name="eye-outline"></ion-icon>
+                                             </div>
+                                             <img src="./assets/images/Certificates/Jp Morgan.jpg"
+                                                  alt="JP Morgan Job Simulation" loading="lazy">
+                                        </figure>
+                                        <h3 class="project-title">Software Engineering Job Simulation</h3>
+                                        <p class="project-category">Certification</p>
+                                   </a>
+                              </li>
+
+                              <li class="project-item active" data-filter-item data-category="Certifications">
+                                   <a href="https://www.life-global.org/certificate/cf34b2ed-e2b4-4015-8d58-93c524128c27"
+                                        target="_blank" rel="noopener noreferrer">
+                                        <figure class="project-img">
+                                             <div class="project-item-icon-box">
+                                                  <ion-icon name="eye-outline"></ion-icon>
+                                             </div>
+                                             <img src="./assets/images/Certificates/Hp.jpg" alt="Softskills"
+                                                  loading="lazy">
+                                        </figure>
+                                        <h3 class="project-title">AI For Beginners</h3>
+                                        <p class="project-category">Certification</p>
+                                   </a>
+                              </li>
+
+                              <li class="project-item active" data-filter-item data-category="Certifications">
+                                   <a href="https://www.credly.com/badges/6cf4e143-46d2-47db-bf33-9def640a8760/linked_in_profile"
+                                        target="_blank" rel="noopener noreferrer">
+                                        <figure class="project-img">
+                                             <div class="project-item-icon-box">
+                                                  <ion-icon name="eye-outline"></ion-icon>
+                                             </div>
+                                             <img src="./assets/images/Certificates/aws-educate-introduction-to-generative-ai.png"
+                                                  alt="Generative AI" loading="lazy">
+                                        </figure>
+                                        <h3 class="project-title">AWS Educate Introduction to Generative AI</h3>
+                                        <p class="project-category">Certification</p>
+                                   </a>
+                              </li>
+
+                              <li class="project-item active" data-filter-item data-category="Certifications">
+                                   <a href="https://drive.google.com/file/d/1k5-sJ4z-1fAQngotodzp_wB3kxXmZeWZ/view?usp=drive_link"
+                                        target="_blank" rel="noopener noreferrer">
+                                        <figure class="project-img">
+                                             <div class="project-item-icon-box">
+                                                  <ion-icon name="eye-outline"></ion-icon>
+                                             </div>
+                                             <img src="./assets/images/Certificates/letsupgrade.jpg" alt="Java"
+                                                  loading="lazy">
+                                        </figure>
+                                        <h3 class="project-title">Java Bootcamp</h3>
+                                        <p class="project-category">Certification</p>
+                                   </a>
+                              </li>
+
+
+                              <li class="project-item active" data-filter-item data-category="Certifications">
+                                   <a href="https://drive.google.com/file/d/1CZVc6LvFwF__NF_gbnL0UbhuKLCGO-Ig/view?usp=drive_link"
+                                        target="_blank" rel="noopener noreferrer">
+                                        <figure class="project-img">
+                                             <div class="project-item-icon-box">
+                                                  <ion-icon name="eye-outline"></ion-icon>
+                                             </div>
+                                             <img src="./assets/images/Certificates/Softskills.jpg" alt="Softskills"
+                                                  loading="lazy">
+                                        </figure>
+                                        <h3 class="project-title">Softskills</h3>
+                                        <p class="project-category">Certification</p>
+                                   </a>
+                              </li>
+
+
+
+                              <!-- <li class="project-item active" data-filter-item data-category="Certifications">
+              <a href="https://drive.google.com/file/d/1Mee5kuYHK75nj4be5tI1JZvN4hUSmHpe/view?usp=drive_link"
+                target="_blank" rel="noopener noreferrer">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/Certificates/QA Tester.pdf.png" alt="Internship" loading="lazy">
+                </figure>
+                <h3 class="project-title">Software Testing and Automation</h3>
+                <p class="project-category">Certification</p>
+              </a>
+            </li> -->
+
+
+
+                              <li class="project-item active" data-filter-item data-category="Certifications">
+                                   <a href=" https://drive.google.com/file/d/1KmyjdETL-IVKMpXd56dEI7GwpLvE3OEk/view?usp=sharing"
+                                        target="_blank" rel="noopener noreferrer">
+                                        <figure class="project-img">
+                                             <div class="project-item-icon-box">
+                                                  <ion-icon name="eye-outline"></ion-icon>
+                                             </div>
+                                             <img src="./assets/images/Certificates/Internship - Edited.jpg"
+                                                  alt="Internship" loading="lazy">
+                                        </figure>
+                                        <h3 class="project-title">Internship on the Industrial Application of Python AI
+                                             & ML</h3>
+                                        <p class="project-category">Certification</p>
+                                   </a>
+                              </li>
+
+
+                         </ul>
+                    </section>
+
+               </article>
+
+
+
+
+
+               <!-- - #CONTACT
+      -->
+               <article class="contact" data-page="contact">
+
+                    <header>
+                         <!-- <h2 class="h2 article-title">Contact</h2> -->
+                         <br>
+                         <section>
+                              <div class="content article-title">
+                                   <h5>Contact</h5>
+                                   <h5>Contact</h5>
+                                   <br>
+                              </div>
+                         </section>
+                    </header>
+
+
+                    <section class="contact-form">
+
+                         <form action="https://formspree.io/f/mblzjoby" class="form" method="POST" data-form>
+
+                              <div class="input-wrapper">
+                                   <input type="text" name="fullname" class="form-input" placeholder="Full name"
+                                        required data-form-input>
+
+                                   <input type="email" name="email" class="form-input" placeholder="Email address"
+                                        required data-form-input>
+                              </div>
+
+                              <textarea name="message" class="form-input" placeholder="Your Message" required
+                                   data-form-input></textarea>
+
+                              <button class="form-btn" type="submit" disabled data-form-btn>
+                                   <ion-icon name="paper-plane"></ion-icon>
+                                   <span>Send Message</span>
+                              </button>
+
+                         </form>
+
+                    </section>
+
+               </article>
+
+          </div>
+
+     </main>
+
+
+
+
+
+     <!--
+    - custom js link
+  -->
+     <script src="./assets/js/script.js"></script>
+
+     <!--
+    - ionicon link
+  -->
+     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
